@@ -5,7 +5,7 @@
     <p>Some personal info here, maybe some photo, location of operation, etc</p>
     <img src="--not--found" alt="my face? idk" />
     <b-row class="info-row">
-      <b-col
+      <b-col sm="12" md="4"
         ><div class="info-card">
           <h5>Some service</h5>
           <ul class="service-list">
@@ -14,28 +14,24 @@
           </ul>
         </div>
       </b-col>
-      <b-col
+      <b-col sm="12" md="4"
         ><div class="info-card">
-          <div class="info-card">
-            <h5>Some other service</h5>
-            <ul class="service-list">
-              <li>thing one</li>
-              <li>thing two</li>
-            </ul>
-          </div>
+          <h5>Some other service</h5>
+          <ul class="service-list">
+            <li>thing one</li>
+            <li>thing two</li>
+          </ul>
         </div></b-col
       >
-      <b-col
-        ><div class="info-card">
-          <div class="info-card">
-            <h5>Some service</h5>
-            <ul class="service-list">
-              <li>thing one</li>
-              <li>thing two</li>
-            </ul>
-          </div>
-        </div></b-col
-      >
+      <b-col sm="12" md="4">
+        <div class="info-card">
+          <h5>Some service</h5>
+          <ul class="service-list">
+            <li>thing one</li>
+            <li>thing two</li>
+          </ul>
+        </div>
+      </b-col>
     </b-row>
   </div>
 </template>
@@ -61,6 +57,7 @@ export default {
   }
   // to use info card in other place, move to global styles
   .info-card {
+    border-radius: 14px;
     background-color: rgba(0, 0, 0, 0.1);
   }
 }

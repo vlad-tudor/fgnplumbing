@@ -3,6 +3,7 @@
     <Intro />
     <About />
     <Contact />
+    <MyComponent />
   </div>
 </template>
 
